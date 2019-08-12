@@ -1,0 +1,63 @@
+/*//////////////////*/
+/*/////HELPERS//////*/
+/*//////////////////*/
+
+.display-table {
+    display: table;
+}
+
+.inline-b {
+    display: inline-block;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.text-uppercase {
+    text-transform: uppercase; 
+ }
+
+ 
+.vm-align {
+    vertical-align: middle;  
+    display: table-cell; 
+}
+ 
+a {
+    color: #212529;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #136fd3 !important;
+}
+
+
+/*//////////////////*/
+/*/////PAGINATION////*/
+/*//////////////////*/
+.job-list-pagination {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.job-list-pagination .page-link {
+    border: none;
+    font-size: 12px;
+}
+
+.page-item.active .page-link {
+    border-radius: 50%;
+}
+
+.page-item.active .page-link:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.page-link:hover {
+    background: none;
+    text-decoration: underline;
+}

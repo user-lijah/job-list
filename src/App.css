@@ -1,0 +1,29 @@
+.App {
+  background: #f9f9f9;
+}
+
+.App-Wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  background: #fff;
+  min-height: 700px;
+}
+
+.search-section {
+  text-align: center;
+  
+}
+
+.border-bottom {
+  padding: 0 20px 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.body-content {
+  padding: 10px 20px;
+}
+
+.Header {
+  text-align: center;
+  padding: 25px 0 15px !important;
+}
